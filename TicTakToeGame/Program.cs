@@ -12,7 +12,8 @@ namespace TicTakToe
         static void Main(string[] args)
         {
             TikTakToeGame obj1 = new TikTakToeGame();
-            obj1.EmptyArray();
+            obj1.XandO();
+            Console.ReadLine();
         }
     }
 }
